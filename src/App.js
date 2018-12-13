@@ -8,16 +8,23 @@ class App extends Component {
       data:0
     }
     this.setNewnumber= this.setNewnumber.bind(this)
+    this.redNumber= this.redNumber.bind(this)
+
   };
   setNewnumber(){
-    this.setState({data: this.state.data +2})
+    this.setState({data: this.state.data +1})
+  }
+  redNumber(){
+    this.setState({data: this.state.data -1})
   }
   render() {
     return (
       <div className="App">
         <div>
           <button onClick={this.setNewnumber}>INCREMENT</button>
+          <button onClick={this.redNumber}>DECREMENT</button>
           <Content myNumber={this.state.data} />
+
         </div>
       </div>
     );
@@ -31,6 +38,7 @@ class Content extends React.Component {
      return (
         <div>
            <h3>{this.props.myNumber}</h3>
+
         </div>
      );
   }
