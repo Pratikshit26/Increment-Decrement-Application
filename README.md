@@ -3,3 +3,7 @@ IncDec library will allow you to perform increment and decrement operation. As i
 
 Usecase of IncDec ?
 IncDec can be used as an alternate for numberpicker, for fast number picking. User need not scroll the wheel for long time. He can just press and hold the button and IncDec will do it's magic.
+
+![](src/screen1.png)
+
+
