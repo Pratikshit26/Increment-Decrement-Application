@@ -5,5 +5,7 @@ Usecase of IncDec ?
 IncDec can be used as an alternate for numberpicker, for fast number picking. User need not scroll the wheel for long time. He can just press and hold the button and IncDec will do it's magic.
 
 ![](images/sos1.png)
+![](images/sos2.png)
+
 
 
